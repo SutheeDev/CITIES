@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: Plana;
+  src: url(./ASSETS/FONTS/GT-Planar-Trial-VF.ttf);
+  font-weight: 100 900;
+  font-style: oblique 0 45deg;
+}
 article {
   background-color: blue;
   display: flex;
