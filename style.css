@@ -9,12 +9,21 @@
   font-weight: 100 900;
   font-style: oblique 0 45deg;
 }
+
 article {
   background-color: blue;
   display: flex;
   flex-direction: column;
 }
+
 span {
   background: red;
+  font-family: Plana, sans-serif;
+  text-transform: capitalize;
   font-size: 10vh;
+  font-variation-settings: "wght" 100, "slnt" -10;
+  transition: all 0.3s ease;
+}
+span:hover {
+  font-variation-settings: "wght" 700, "slnt" 10;
 }
