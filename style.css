@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+article {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+}
+span {
+  background: red;
+  font-size: 10vh;
+}
