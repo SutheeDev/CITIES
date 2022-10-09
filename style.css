@@ -12,12 +12,18 @@
 body {
   width: 100vw;
   height: 100vh;
+  font-family: Plana, sans-serif;
+  color: #202231;
+  font-size: 2vh;
+  text-transform: capitalize;
+  font-variation-settings: "wght" 100, "slnt" -10;
   overflow: hidden;
   background-color: #fefdeb;
 }
 article {
   display: flex;
   flex-direction: column;
+  padding: 1rem 0;
   overflow: hidden;
 }
 h1 {
@@ -26,15 +32,17 @@ h1 {
 span {
   display: inline-block;
   flex: 0 0 auto;
-  /* background: red; */
-  font-family: Plana, sans-serif;
-  color: #202231;
-  text-transform: capitalize;
-  font-size: 3vh;
   padding: 0.3rem 1.7rem;
-  font-variation-settings: "wght" 100, "slnt" -10;
   transition: all 0.3s ease;
 }
 span:hover {
-  font-variation-settings: "wght" 700, "slnt" 10;
+  font-variation-settings: "wght" 900, "slnt" 10;
+}
+.mid {
+  font-size: 7vh;
+  font-variation-settings: "wght" 200, "slnt" -10;
+}
+.big {
+  font-size: 23vh;
+  font-variation-settings: "wght" 300, "slnt" -10;
 }
