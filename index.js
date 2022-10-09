@@ -7,23 +7,20 @@ linesTl
 
 lines.forEach((line) => {
     const word = line.querySelector('span');
-
-    // Get the width of each word
-    const wordWidth = word.offsetWidth;
-    console.log(wordWidth);
     
     // Replicate word in each line
     for (i = 0; i < 20; i++){
         line.appendChild(word.cloneNode(true));
     }
-
+    
+    // Get the width of each word
+    const wordWidth = word.offsetWidth;
+    // Slide Timeline
     const lineTl = gsap.timeline({repeat: -1});
     lineTl  
         .to(line, {
             x: wordWidth * -1,
-            duration: 8,
+            duration: 5,
             ease: 'linear'
         })
-
 })
-

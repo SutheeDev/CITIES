@@ -1,8 +1,10 @@
+/* Global style */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/* Font */
 @font-face {
   font-family: Plana;
   src: url(./ASSETS/FONTS/GT-Planar-Trial-VF.ttf);
@@ -38,6 +40,7 @@ span {
 span:hover {
   font-variation-settings: "wght" 900, "slnt" 10;
 }
+/* different font-size */
 .mid {
   font-size: 7vh;
   font-variation-settings: "wght" 200, "slnt" -10;
