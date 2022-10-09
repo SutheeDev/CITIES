@@ -13,9 +13,9 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  background-color: #fefdeb;
 }
 article {
-  background-color: blue;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -26,11 +26,12 @@ h1 {
 span {
   display: inline-block;
   flex: 0 0 auto;
-  background: red;
+  /* background: red; */
   font-family: Plana, sans-serif;
+  color: #202231;
   text-transform: capitalize;
   font-size: 3vh;
-  padding: 0.3rem 1.5rem;
+  padding: 0.3rem 1.7rem;
   font-variation-settings: "wght" 100, "slnt" -10;
   transition: all 0.3s ease;
 }
