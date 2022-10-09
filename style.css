@@ -18,6 +18,7 @@ article {
   background-color: blue;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 h1 {
   display: flex;
