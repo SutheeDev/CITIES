@@ -14,7 +14,7 @@ lines.forEach((line) => {
     }
     
     // Get the width of each word
-    const wordWidth = word.offsetWidth;
+    const wordWidth = word.clientWidth;
     // Slide Timeline
     const lineTl = gsap.timeline({repeat: -1});
     lineTl  

@@ -34,7 +34,8 @@ h1 {
 span {
   display: inline-block;
   flex: 0 0 auto;
-  padding: 0.3rem 1.7rem;
+  /* padding: 0.3rem 1.7rem; */
+  padding: 0.3rem 0;
   transition: all 0.3s ease;
 }
 span:hover {
@@ -48,4 +49,40 @@ span:hover {
 .big {
   font-size: 23vh;
   font-variation-settings: "wght" 300, "slnt" -10;
+}
+
+/* Span Width */
+.bangkok {
+  width: 140px;
+}
+.phila {
+  width: 400px;
+}
+.tokyo {
+  width: 100px;
+}
+.boston,
+.osaka {
+  width: 110px;
+}
+.ny {
+  width: 320px;
+}
+.vancouver {
+  width: 1130px;
+}
+.krabi {
+  width: 180px;
+}
+.sf {
+  width: 200px;
+}
+.chiang-mai {
+  width: 170px;
+}
+.chicago {
+  width: 270px;
+}
+.surat {
+  width: 190px;
 }
